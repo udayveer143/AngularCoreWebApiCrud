@@ -43,11 +43,23 @@ namespace Product.API.Services.Implementations
 
         public async Task<IEnumerable<ProductDto>> GetAllProduct()
         {
-            return await _context.Products.Select(product => ModelConverter.ModelToDto(product)).ToListAsync();
+            try
+            {
+                var result = await _context.Products.Select(product=>ModelConverter.ModelToDto(product)).ToListAsync();
+                return result;
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            
         }
         public async Task<ProductDto> GetProductById(int id)
         {
-            return await _context.Products.Select(product=>ModelConverter.ModelToDto(product)).FirstOrDefaultAsync();
+            var result= await _context.Products.Select(product=>ModelConverter.ModelToDto(product)).FirstOrDefaultAsync();
+            return result;
                 
         }
     }

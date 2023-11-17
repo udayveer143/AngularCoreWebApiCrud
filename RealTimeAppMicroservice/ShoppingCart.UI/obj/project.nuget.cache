@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hJcBlTL50462YWqsDeXjjrwLiB2hsOoeg6SENgSp8gr4MkRhitdbPnjUS0qJdMgBKVN6dQ6mJUtMXg2JwnxSHA==",
+  "dgSpecHash": "Vnlp7vD2hesLLe3Uke0WkYu+aMP7LudBasx87AN3hiY6GtGCoEGPKNVvxL2W7yGFZtw1XqymQiBENYd71lFH0A==",
   "success": true,
   "projectFilePath": "D:\\Practice\\RealTimeAppMicroservice\\ShoppingCart.UI\\ShoppingCart.UI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Udayveer singh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Udayveer singh\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Udayveer singh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Udayveer singh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
